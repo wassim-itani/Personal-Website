@@ -1,0 +1,54 @@
+#hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 62.5rem;
+  min-height: calc(100vh - 4.375rem);
+  margin: 0 auto ;
+}
+
+h1 {
+  margin:0 0 1.875rem;
+  color: var(--green);
+  font-size: var(--font-md);
+  font-weight: 400;
+  font-family: var(--font-mono);
+  text-indent: 0.125rem;
+}
+
+.big-heading {
+  font-size: clamp(2.5rem, 8vw, 5rem);
+}
+
+h2.big-heading {
+  margin: 0;
+  color: var(--vlight-gray);
+}
+
+h3.big-heading {
+  margin: 0 0 0.625rem;
+}
+
+.hero-text {
+  max-width: 33.75rem;
+  margin-bottom: 0;
+}
+
+.hero-notice {
+  color: var(--green);
+}
+
+.hero-btn {
+  margin-top: 3.125rem;
+}
+
+@media screen and (max-width:26.5625em){
+  #hero{
+    padding-bottom:10vh;
+  }
+  
+  h1{
+    margin-bottom:1.25rem;
+  }
+}

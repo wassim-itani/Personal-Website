@@ -1,0 +1,36 @@
+.right-bar {
+  position: fixed;
+  bottom: 0;
+  right: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.right-bar::after {
+  content: "";
+  width: 0.0625rem;
+  height: 6rem;
+  background-color: var(--light-gray);
+}
+
+.gmail-link {
+  display: inline-block;
+  padding: 0.625rem;
+  color: var(--light-gray);
+  font-size: var(--font-xsm);
+  font-family: var(--font-mono);
+  letter-spacing: 1px;
+  writing-mode: vertical-lr;
+}
+
+.gmail-link:hover {
+  transform: translateY(-0.25rem);
+}
+
+@media screen and (max-width: 48em) {
+  .right-bar {
+    display: none;
+  }
+}

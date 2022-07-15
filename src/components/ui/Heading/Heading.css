@@ -1,0 +1,34 @@
+.numbered-heading {
+  display: flex;
+  align-items: center;
+  margin: 0 0 2.5rem;
+  color: var(--vlight-gray);
+  font-size: clamp(1.625rem, 5vw, 2rem);
+  white-space: nowrap;
+}
+
+.numbered-heading::before {
+  content: "0" counter(section) ".";
+  position: relative;
+  bottom: 0.25rem;
+  z-index: 1;
+  margin-right: 0.375rem;
+  color: var(--green);
+  font-family: var(--font-mono);
+  font-size: clamp(1rem, 3vw, 1.25rem);
+}
+
+.numbered-heading::after {
+  content: "";
+  width: 12.5rem;
+  height: 0.0625rem;
+  margin-left: 1.25rem;
+  background-color: var(--gray);
+  opacity: 0.2;
+}
+
+@media screen and (max-width: 48em) {
+  .numbered-heading::after {
+    flex-grow:1;
+  }
+}

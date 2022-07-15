@@ -1,0 +1,34 @@
+footer {
+  padding: 0.9375rem;
+}
+
+.footer-socials {
+  display: none;
+}
+
+.footer-text {
+  margin-bottom: 0;
+  color: var(--light-gray);
+  font-size: var(--font-xsm);
+  font-family: var(--font-mono);
+  text-align: center;
+}
+
+.footer-text:first-of-type {
+  margin-bottom: 0.625rem;
+}
+
+@media screen and (max-width: 48em) {
+  .footer-socials {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.625rem;
+  }
+
+  .footer-social-link {
+    display: flex;
+    padding: 0.625rem;
+    color: var(--light-gray);
+    font-size: var(--font-xlg);
+  }
+}

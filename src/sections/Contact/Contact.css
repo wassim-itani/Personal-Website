@@ -1,0 +1,28 @@
+#contact {
+  max-width: 37.5rem;
+  text-align: center;
+}
+
+.contact-numbered-heading {
+  display: block;
+  margin-bottom: 1.25rem;
+  color: var(--green);
+  font-size: var(--font-md);
+  font-family: var(--font-mono);
+  font-weight: 400;
+}
+
+.contact-numbered-heading::before {
+  bottom: 0;
+  font-size: var(--font-sm);
+}
+
+.contact-title {
+  margin: 0 0 0.625rem;
+  color: var(--vlight-gray);
+  font-size: clamp(2.5rem, 5vw, 3.75rem);
+}
+
+.contact-text{
+  margin-bottom:2.5rem;
+}

@@ -1,0 +1,29 @@
+#about {
+  max-width: 56.25rem;
+}
+
+.about-container {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 50px;
+  justify-items: center;
+}
+
+.about-text:last-of-type {
+  margin-bottom: 2rem;
+}
+
+.about-img {
+  max-width: 18.75rem;
+}
+
+@media screen and (max-width: 48em) {
+  .about-container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .about-img {
+    max-width: 50%;
+    min-width: 15rem;
+  }
+}

@@ -1,0 +1,4 @@
+- My personal website where I showcase my story, skills, and projects.<br>
+- Built with React, CSS, and Framer Motion library for animations.<br>
+- The design was inspired by [Brittany Chiang](https://github.com/bchiang7)
+- You can check the live demo [here](https://wassim-itani.netlify.app)

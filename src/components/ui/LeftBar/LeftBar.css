@@ -1,0 +1,39 @@
+.left-bar {
+  position: fixed;
+  bottom: 0;
+  left: 2.5rem;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.socials li:last-of-type {
+  margin-bottom: 1.25rem;
+}
+
+.socials::after {
+  content: "";
+  width: 0.0625rem;
+  height: 6rem;
+  background-color: var(--light-gray);
+}
+
+.social-link {
+  display: flex;
+  padding: 0.625rem;
+  color: var(--light-gray);
+  font-size: var(--font-xlg);
+}
+
+.social-link:hover {
+  transform: translateY(-0.25rem);
+}
+
+@media screen and (max-width: 48em) {
+  .left-bar {
+    display: none;
+  }
+}
