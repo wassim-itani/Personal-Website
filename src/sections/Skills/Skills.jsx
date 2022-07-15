@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Heading } from "../../components/ui";
 import {
   DiHtml5,
-  DiCss3Full,
+  DiCss3,
   DiJavascript1,
   DiSass,
   DiReact,
@@ -47,7 +47,7 @@ const Skills = () => {
               <DiHtml5 aria-hidden="true" />
             </div>
             <div className="cube-side back">
-              <DiCss3Full aria-hidden="true" />
+              <DiCss3 aria-hidden="true" />
             </div>
             <div className="cube-side left">
               <DiJavascript1 aria-hidden="true" />

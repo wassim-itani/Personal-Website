@@ -47,7 +47,7 @@
 }
 
 .back {
-  transform: translateZ(var(--cube-translate-pos));
+  transform: translateZ(var(--cube-translate-neg));
 }
 
 .left {
