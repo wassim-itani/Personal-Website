@@ -20,13 +20,13 @@ const Skills = () => {
       viewport={{ once: true, amount: 0.4 }}
       variants={section}
     >
-      <Heading text="Skills & Experience" />
+      <Heading text="Skills" />
       <div className="skills-container">
         <div>
           <p>
             I'm knowledgeable in various front-end technologies such as{" "}
             <span className="notice">
-              HTML5, CSS3, JavaScript (ES6+), Sass , React, Git
+              HTML5, CSS3, JavaScript (ES6+), TypeScript, Sass, tailwind css, React, Vue, Redux, Git, GitLab
             </span>
             , etc. In addition to some back-end technologies like{" "}
             <span className="notice">PHP</span> and{" "}
