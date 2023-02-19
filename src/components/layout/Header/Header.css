@@ -136,6 +136,7 @@ header.scroll-down {
     flex-direction: column;
     gap: 15px;
     counter-set: item 0;
+    overflow-y: auto;
   }
 
   .nav-item-mobile {
