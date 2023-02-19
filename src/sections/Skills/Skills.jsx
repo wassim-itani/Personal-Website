@@ -26,7 +26,7 @@ const Skills = () => {
           <p>
             I'm knowledgeable in various front-end technologies such as{" "}
             <span className="notice">
-              HTML5, CSS3, JavaScript (ES6+), TypeScript, Sass, tailwind css, React, Vue, Redux, Git, GitLab
+              HTML5, CSS3, JavaScript (ES6+), TypeScript, Sass, React, Vue, Redux, Git, GitLab
             </span>
             , etc. In addition to some back-end technologies like{" "}
             <span className="notice">PHP</span> and{" "}
