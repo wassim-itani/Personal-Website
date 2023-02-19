@@ -1,4 +1,9 @@
-import { bloggingSystem,todoApp, blogrClone, agencyLanding } from "../assets/images";
+import {
+  bloggingSystem,
+  todoApp,
+  blogrClone,
+  agencyLanding,
+} from "../assets/images";
 
 export const navMenuData = [
   {
@@ -8,6 +13,10 @@ export const navMenuData = [
   {
     href: "#skills",
     text: "Skills",
+  },
+  {
+    href: "#experience",
+    text: "Experience",
   },
   {
     href: "#portfolio",
