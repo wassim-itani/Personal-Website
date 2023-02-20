@@ -1,11 +1,20 @@
+import { motion } from "framer-motion"
+import { Heading, Tabs } from '../../components/ui';
+import { section } from "../../js/animation";
 import './Experience.css';
-import { Heading } from '../../components/ui';
 
 const Experience = () => {
     return (
-        <section id='experience'>
+        <motion.section
+            id='experience'
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.4 }}
+            variants={section}
+        >
             <Heading text="Experience" />
-        </section>
+            <Tabs />
+        </motion.section>
     )
 }
 

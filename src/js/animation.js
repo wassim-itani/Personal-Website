@@ -173,3 +173,19 @@ export const projectItem = {
     },
   },
 };
+
+export const tabContent = {
+  hidden: {
+    y: 20,
+    opacity: 0,
+  },
+  visible: {
+    y: 0,
+    opacity: 1,
+    transition: {
+      type: "tween",
+      duration: 0.2,
+      ease: "easeOut",
+    },
+  },
+};

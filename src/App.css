@@ -80,11 +80,12 @@ body {
   text-size-adjust: none;
 }
 
-body::-webkit-scrollbar {
+::-webkit-scrollbar {
   width: 5px;
+  height: 5px;
 }
 
-body::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
   background-color: var(--light-gray);
   border-radius: 10px;
 }

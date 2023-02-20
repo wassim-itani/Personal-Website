@@ -1,0 +1,20 @@
+.tabs-container {
+  display: flex;
+  gap: 30px;
+}
+
+.tabs {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 35.5em) {
+  .tabs-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .tabs {
+    flex-direction: row;
+    overflow-x: auto;
+  }
+}

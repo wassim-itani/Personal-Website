@@ -62,3 +62,21 @@ export const projects = [
     tools: ["React", "Sass", "Framer Motion"],
   },
 ];
+
+export const companies = ["ZAQ"];
+export const jobInfo = [
+  {
+    position: "Front-End Developer Intern",
+    from: "September",
+    to: "December 2022",
+    company: "ZAQ",
+    tasks: [
+      "Collaborated closely in a team of 2 on the front-end side of a custom chatbot.",
+      "Developed the basis of an interactive diagramming application using Vue.js.",
+      "Maintained 3+ web applications and fixed front-end bugs related to UI and API integration.",
+      "Created reusable web components using Vue.js and SCSS.",
+      "Used Git and GitLab for managing code changes.",
+      "Upgraded projects’ dependencies using npm.",
+    ],
+  },
+];

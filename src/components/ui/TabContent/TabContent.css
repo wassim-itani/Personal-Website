@@ -1,0 +1,35 @@
+.tab-content {
+  flex-grow: 1;
+  padding: 0.9375rem 0;
+}
+
+.tab-content-heading {
+  margin: 0 0 0.125rem 0;
+  color: var(--vlight-gray);
+  font-size: var(--font-xlg);
+  font-weight: 500;
+}
+
+.tab-content-subheading {
+  margin-bottom: 1.5625rem;
+  color: var(--light-gray);
+  font-size: var(--font-xsm);
+  font-family: var(--font-mono);
+}
+
+.tab-content-list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.tab-content-item {
+  display: flex;
+  gap: 10px;
+  font-size: var(--font-lg);
+}
+
+.tab-content-item::before {
+  content: ">";
+  color: var(--green);
+}
