@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { Loader, LeftBar, RightBar } from "./components/ui/";
 import { Header, Footer } from "./components/layout";
-import { About, Contact, Hero, Portfolio, Skills } from "./sections";
+import { About, Contact, Experience, Hero, Portfolio, Skills } from "./sections";
 import "./App.css";
 
 const App = () => {
@@ -18,6 +18,7 @@ const App = () => {
         <Hero />
         <About />
         <Skills />
+        <Experience />
         <Portfolio />
         <Contact />
       </main>
