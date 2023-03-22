@@ -3,6 +3,7 @@ import {
   todoApp,
   blogrClone,
   agencyLanding,
+  shoppingCart,
 } from "../assets/images";
 
 export const navMenuData = [
@@ -29,6 +30,14 @@ export const navMenuData = [
 ];
 
 export const projects = [
+  {
+    title: "Shopping Cart",
+    img: shoppingCart,
+    text: "An e-commerce shopping cart.",
+    code: "https://github.com/wassim-itani/Shopping-Cart",
+    demo: "https://market-shopping-cart.netlify.app",
+    tools: ["React", "Redux", "TypeScript", "TailwindCSS"],
+  },
   {
     title: "Blogging System - Senior Project",
     img: bloggingSystem,
