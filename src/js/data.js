@@ -36,7 +36,7 @@ export const projects = [
     text: "An e-commerce shopping cart.",
     code: "https://github.com/wassim-itani/Shopping-Cart",
     demo: "https://market-shopping-cart.netlify.app",
-    tools: ["React", "Redux", "TypeScript", "TailwindCSS"],
+    tools: ["React", "Redux", "TypeScript", "Tailwind CSS"],
   },
   {
     title: "Blogging System - Senior Project",
@@ -44,7 +44,7 @@ export const projects = [
     text: "A web app where users can publish posts and interact with others. Featuring a rich text editor, interactive liking/commenting system, and much more!",
     code: "https://github.com/wassim-itani/Blogging-System",
     demo: "https://blogr99.netlify.app",
-    tools: ["React", "Sass", "PHP", "MYSQL"],
+    tools: ["React", "SCSS", "PHP", "MYSQL"],
   },
   {
     title: "Todo App",
@@ -52,7 +52,7 @@ export const projects = [
     text: "A todo app with CRUD operations, filtering, and light/dark theme.",
     code: "https://github.com/wassim-itani/React-todo-app",
     demo: "https://react-todo-app97.netlify.app",
-    tools: ["React", "Css"],
+    tools: ["React", "CSS"],
   },
   {
     title: "Blogr Landing Page Clone",
@@ -68,7 +68,7 @@ export const projects = [
     text: "A modern designed agency landing page with subtle animations using framer-motion.",
     code: "https://github.com/wassim-itani/react-multipurpose",
     demo: "https://react-multipurpose.netlify.app",
-    tools: ["React", "Sass", "Framer Motion"],
+    tools: ["React", "SCSS", "Framer Motion"],
   },
 ];
 
@@ -80,12 +80,12 @@ export const jobInfo = [
     to: "December 2022",
     company: "ZAQ",
     tasks: [
-      "Collaborated closely in a team of 2 on the front-end side of a custom chatbot.",
-      "Developed the basis of an interactive diagramming application using Vue.js.",
-      "Maintained 3+ web applications and fixed front-end bugs related to UI and API integration.",
-      "Created reusable web components using Vue.js and SCSS.",
-      "Used Git and GitLab for managing code changes.",
-      "Upgraded projects’ dependencies using npm.",
+      "Cooperated with a team to create responsive and cross-browser-compatible user interfaces.",
+      "Integrated front-end code with back-end REST APIs.",
+      "Maintained websites by performing content updates, bug fixes, and feature enhancements.",
+      "Implemented UI/UX designs using Vue.js, SCSS, and Tailwind CSS.",
+      "Utilized Git and GitLab for collaborative development and code management.",
+      "Managed project dependencies with npm.",
     ],
   },
 ];
